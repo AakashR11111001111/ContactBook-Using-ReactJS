@@ -1,0 +1,25 @@
+.header{
+    height: 50px;
+    width: 100%;
+    background: rgba(5, 21, 354, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    justify-content: flex-end;
+}
+
+.searchip form{
+    display: flex;
+    gap: 10px;
+}
+
+.searchip input{
+    font-size: 16px;
+    padding: .2vw .5vw;
+    border: 1px solid black;
+}
+
+.searchip input:focus-within{
+    outline: none;
+    border: 1px solid rgb(197, 71, 25);
+}

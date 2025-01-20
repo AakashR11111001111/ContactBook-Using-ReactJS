@@ -1,0 +1,49 @@
+.main td{
+    font-weight: 300;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main td:hover{
+    font-weight: 300;
+    color: tomato;
+}
+
+.editsvg{
+    transition: all 0.18s ease;
+}
+
+.editsvg:hover{
+    fill: rgba(0, 0, 0, 0.5)
+}
+
+.dlt{
+    transition: all 0.18s ease;
+}
+
+.dlt:hover{
+    fill: red;
+}
+
+.fav{
+    fill: transparent;
+    stroke: black;
+    stroke-width: 1px;
+    transition: all 0.18s ease;
+}
+
+.fav:hover{
+    fill: rgb(211, 161, 10);
+}
+
+.action{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pp img{
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2 ));
+}

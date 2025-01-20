@@ -1,0 +1,26 @@
+.main{
+    width: calc(100% - 300px);
+    overflow: scroll;
+}
+
+.main::-webkit-scrollbar{
+    width: 0;
+}
+
+.main table{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    table-layout: fixed;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.main table thead{
+    font-size: 17px;
+}
+
+.main table thead tr th{
+    font-weight: 600;
+}
+

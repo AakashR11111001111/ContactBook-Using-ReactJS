@@ -1,0 +1,76 @@
+.sideBar{
+    height: 100%;
+    width: 300px;
+    background: rgba(5, 21, 354, 0.2);
+    overflow: scroll;
+}
+
+.sideBar::-webkit-scrollbar{
+    width: 0;
+}
+
+.divide{
+    padding: 10px 0px;
+}
+
+.divide img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.divide h5{
+    text-align: center;
+    font-weight: 300;
+}
+
+.sideBar h3{
+    text-align: center;
+    font-weight: 400;
+}
+
+.contacts, .FavCont{
+    padding: 20px 0px;
+    font-size: 13px;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: .2vw .5vw;
+}
+
+.inputs input{
+    padding: .2vw .5vw;
+    border: 1px solid black;
+    width: 45%;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.inputs input:focus-within{
+    border: 1px solid rgb(197, 71, 25);;
+    outline: none;
+}
+
+#Tel{
+    width: 100%;
+}
+
+.addContactBtn{
+    cursor: pointer;
+    padding: .4vw 1.2vw;
+    margin: 5px auto;
+    color: white;
+    border: none;
+    background: darkorange;
+    border-radius: 2px;
+    transition: all 0.15s ease;
+}
+
+.addContactBtn:hover{
+    background: rgb(212, 123, 15);
+}
